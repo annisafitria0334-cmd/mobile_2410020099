@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\Api\JenisAktaController;
-use App\Http\Controllers\Api\PemohonController;
+use App\Http\Controllers\Api\PelangganController;
+use App\Http\Controllers\Api\ProdukController;
 use Illuminate\Support\Facades\Route;
 
-Route::apiResource('jenis_akta', JenisAktaController::class);
-Route::apiResource('pemohon', PemohonController::class);
+Route::apiResource('pelanggan', PelangganController::class);
+Route::apiResource('produk', ProdukController::class);
